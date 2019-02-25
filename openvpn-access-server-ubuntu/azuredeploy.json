@@ -54,15 +54,15 @@
     "imageOffer": "UbuntuServer",
     "nicName": "OpenVPN-NIC",
     "addressPrefix": "10.0.0.0/16",
-    "subnetName": "Subnet",
+    "subnetName": "AppSubnet",
     "subnetPrefix": "10.0.1.0/24",
     "storageAccountType": "Standard_LRS",
     "publicIPAddressName": "OpenVPN-PublicIP",
     "publicIPAddressType": "Static",
     "vmName": "OpenVPN-VM",
-    "virtualNetworkName": "OpenVPN-VNET",
+    "virtualNetworkName": "VesselCheck-Vnet",
     "subnetRef": "[resourceId('Microsoft.Network/virtualNetworks/subnets',variables('virtualNetworkName'),variables('subnetName'))]",
-    "networkSecurityGroupName": "OpenVPN-NSG"
+    "networkSecurityGroupName": "VC_App_NSG"
   },
   "resources": [
     {
