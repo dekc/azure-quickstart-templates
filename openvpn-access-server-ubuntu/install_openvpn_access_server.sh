@@ -3,7 +3,8 @@ userPassword=$1
 
 #download the packages
 cd /tmp
-wget -c http://swupdate.openvpn.org/as/openvpn-as-2.1.9-Ubuntu16.amd_64.deb
+#wget -c http://swupdate.openvpn.org/as/openvpn-as-2.4.4-2ubuntu16.amd_64.deb
+wget -c https://openvpn.net/downloads/openvpn-as-latest-ubuntu18.amd_64.deb
 
 #install the software
 sudo dpkg -i openvpn-as-2.1.9-Ubuntu16.amd_64.deb

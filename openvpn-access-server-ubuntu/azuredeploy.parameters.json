@@ -3,12 +3,12 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "adminUsername": {
-      "value": "azureuser"
+      "value": "dhiadmin"
     },
     "adminPassword": {
       "value": "GEN-PASSWORD"
     },
-	"openvpnPassword": {
+    "openvpnPassword": {
       "value": "GEN-PASSWORD"
     },
     "dnsNamePrefix": {
