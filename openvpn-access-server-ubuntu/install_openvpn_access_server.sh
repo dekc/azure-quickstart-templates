@@ -7,7 +7,7 @@ cd /tmp
 wget -c https://openvpn.net/downloads/openvpn-as-latest-ubuntu18.amd_64.deb
 
 #install the software
-sudo dpkg -i openvpn-as-2.1.9-Ubuntu16.amd_64.deb
+sudo dpkg -i openvpn-as-latest-ubuntu18.amd_64.deb
 
 #update the password for user openvpn
 sudo echo "openvpn:$userPassword"|sudo chpasswd
