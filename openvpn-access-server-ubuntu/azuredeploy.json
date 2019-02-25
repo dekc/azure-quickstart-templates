@@ -60,7 +60,7 @@
     "publicIPAddressName": "OpenVPN-PublicIP",
     "publicIPAddressType": "Static",
     "vmName": "OpenVPN-VM",
-    "virtualNetworkName": "VesselCheck-Vnet",
+    "virtualNetworkName": "VesselCheck_VNet",
     "subnetRef": "[resourceId('Microsoft.Network/virtualNetworks/subnets',variables('virtualNetworkName'),variables('subnetName'))]",
     "networkSecurityGroupName": "VC_App_NSG"
   },
